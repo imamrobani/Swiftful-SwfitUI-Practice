@@ -19,6 +19,9 @@
 		CEEB5A452BD6A5380005619E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5A442BD6A5380005619E /* User.swift */; };
 		CEEB5A482BD6A69D0005619E /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = CEEB5A472BD6A69D0005619E /* SwiftfulUI */; };
 		CEEB5A4B2BD6A6A90005619E /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = CEEB5A4A2BD6A6A90005619E /* SwiftfulRouting */; };
+		CEEB5A502BD6A9CA0005619E /* SpotifyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5A4F2BD6A9CA0005619E /* SpotifyHomeView.swift */; };
+		CEEB5A522BD6B4C60005619E /* SpotifyCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5A512BD6B4C60005619E /* SpotifyCategoryCell.swift */; };
+		CEEB5A552BD6B6640005619E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5A542BD6B6640005619E /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		CEEB5A402BD6A3070005619E /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		CEEB5A422BD6A52A0005619E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		CEEB5A442BD6A5380005619E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CEEB5A4F2BD6A9CA0005619E /* SpotifyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyHomeView.swift; sourceTree = "<group>"; };
+		CEEB5A512BD6B4C60005619E /* SpotifyCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCategoryCell.swift; sourceTree = "<group>"; };
+		CEEB5A542BD6B6640005619E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 			children = (
 				CEEB5A292BD69FB40005619E /* SwiftfulSwiftUIPracticeApp.swift */,
 				CEEB5A2B2BD69FB40005619E /* ContentView.swift */,
+				CEEB5A4C2BD6A8070005619E /* Spotify */,
 				CEEB5A3A2BD6A0930005619E /* Shared */,
 				CEEB5A2D2BD69FB50005619E /* Assets.xcassets */,
 				CEEB5A2F2BD69FB50005619E /* Preview Content */,
@@ -94,6 +101,40 @@
 				CEEB5A442BD6A5380005619E /* User.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		CEEB5A4C2BD6A8070005619E /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5A532BD6B6510005619E /* Models */,
+				CEEB5A4D2BD6A9A90005619E /* Components */,
+				CEEB5A4E2BD6A9AF0005619E /* Core */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		CEEB5A4D2BD6A9A90005619E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5A512BD6B4C60005619E /* SpotifyCategoryCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CEEB5A4E2BD6A9AF0005619E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5A4F2BD6A9CA0005619E /* SpotifyHomeView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CEEB5A532BD6B6510005619E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5A542BD6B6640005619E /* Category.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEB5A2C2BD69FB40005619E /* ContentView.swift in Sources */,
+				CEEB5A552BD6B6640005619E /* Category.swift in Sources */,
+				CEEB5A522BD6B4C60005619E /* SpotifyCategoryCell.swift in Sources */,
 				CEEB5A412BD6A3070005619E /* DatabaseHelper.swift in Sources */,
+				CEEB5A502BD6A9CA0005619E /* SpotifyHomeView.swift in Sources */,
 				CEEB5A3F2BD6A0C00005619E /* ImageLoaderView.swift in Sources */,
 				CEEB5A2A2BD69FB40005619E /* SwiftfulSwiftUIPracticeApp.swift in Sources */,
 				CEEB5A3C2BD6A0AA0005619E /* Constants.swift in Sources */,
