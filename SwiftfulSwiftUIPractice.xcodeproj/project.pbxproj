@@ -13,6 +13,7 @@
 		CE82EA852BD8958000893D1A /* PlaylistHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82EA842BD8958000893D1A /* PlaylistHeaderCell.swift */; };
 		CE82EA872BD899A200893D1A /* SpotifyPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82EA862BD899A200893D1A /* SpotifyPlaylistView.swift */; };
 		CE82EA892BD89B0800893D1A /* PlaylistDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82EA882BD89B0800893D1A /* PlaylistDescriptionCell.swift */; };
+		CE82EA8B2BD8AED300893D1A /* SongRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82EA8A2BD8AED300893D1A /* SongRowCell.swift */; };
 		CEEB5A2A2BD69FB40005619E /* SwiftfulSwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5A292BD69FB40005619E /* SwiftfulSwiftUIPracticeApp.swift */; };
 		CEEB5A2C2BD69FB40005619E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5A2B2BD69FB40005619E /* ContentView.swift */; };
 		CEEB5A2E2BD69FB50005619E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB5A2D2BD69FB50005619E /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		CE82EA842BD8958000893D1A /* PlaylistHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistHeaderCell.swift; sourceTree = "<group>"; };
 		CE82EA862BD899A200893D1A /* SpotifyPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyPlaylistView.swift; sourceTree = "<group>"; };
 		CE82EA882BD89B0800893D1A /* PlaylistDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDescriptionCell.swift; sourceTree = "<group>"; };
+		CE82EA8A2BD8AED300893D1A /* SongRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRowCell.swift; sourceTree = "<group>"; };
 		CEEB5A262BD69FB40005619E /* SwiftfulSwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulSwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEB5A292BD69FB40005619E /* SwiftfulSwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulSwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		CEEB5A2B2BD69FB40005619E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				CE2E80E52BD7FCCC00B6AB2D /* ImageTitleRowCell.swift */,
 				CE82EA842BD8958000893D1A /* PlaylistHeaderCell.swift */,
 				CE82EA882BD89B0800893D1A /* PlaylistDescriptionCell.swift */,
+				CE82EA8A2BD8AED300893D1A /* SongRowCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				CEEB5A3C2BD6A0AA0005619E /* Constants.swift in Sources */,
 				CE2E80E22BD7526E00B6AB2D /* SpotifyRecentCell.swift in Sources */,
 				CEEB5A432BD6A52A0005619E /* Product.swift in Sources */,
+				CE82EA8B2BD8AED300893D1A /* SongRowCell.swift in Sources */,
 				CE82EA892BD89B0800893D1A /* PlaylistDescriptionCell.swift in Sources */,
 				CEEB5A452BD6A5380005619E /* User.swift in Sources */,
 			);
