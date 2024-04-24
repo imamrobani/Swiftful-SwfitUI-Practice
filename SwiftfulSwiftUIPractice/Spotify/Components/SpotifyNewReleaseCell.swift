@@ -41,9 +41,10 @@ struct SpotifyNewReleaseCell: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             
-            HStack {
+            HStack(spacing: 16) {
                 ImageLoaderView(urlString: imageName)
                     .frame(width: 140, height: 140)
+                    .clipped()
                 
                 VStack(alignment: .leading, spacing: 32) {
                     VStack(alignment: .leading, spacing: 2) {
@@ -71,7 +72,6 @@ struct SpotifyNewReleaseCell: View {
                             }
                             .offset(x: -4)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                        
                         
                         Image(systemName: "play.circle.fill")
                             .foregroundStyle(.spotifyWhite)
