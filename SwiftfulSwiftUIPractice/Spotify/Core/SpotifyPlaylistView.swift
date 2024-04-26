@@ -15,6 +15,8 @@ struct SpotifyPlaylistView: View {
     var product: Product = .mock
     var user: User = .mock
     
+    var name = "Imam"
+    
     @State private var products: [Product] = []
     @State private var showHeader: Bool = false
     
@@ -68,7 +70,6 @@ struct SpotifyPlaylistView: View {
             
             header
                 .frame(maxHeight: .infinity, alignment: .top)
-            
         }
         .task {
             await getData()
@@ -113,7 +114,6 @@ struct SpotifyPlaylistView: View {
         }
         .foregroundStyle(.spotifyWhite)
         .animation(.smooth(duration: 0.2), value: showHeader)
-        
     }
 }
 
