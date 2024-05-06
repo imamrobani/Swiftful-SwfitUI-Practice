@@ -135,16 +135,16 @@ struct BumbleHomeView: View {
         )
         .withDragGesture(
             .horizontal,
-            minimumDistance: 10,
+            minimumDistance: 30,
             resets: true,
             rotationMultiplier: 1.05,
             onChanged: { dragOffset in
                 currentSwipeOffset = dragOffset.width
             },
             onEnded: { dragOffset in
-                if dragOffset.width < -50 {
+                if dragOffset.width < -200 {
                     userDidSelect(index: index, isLike: false)
-                } else if dragOffset.width > 50 {
+                } else if dragOffset.width > 200 {
                     userDidSelect(index: index, isLike: true)
                 }
             }
