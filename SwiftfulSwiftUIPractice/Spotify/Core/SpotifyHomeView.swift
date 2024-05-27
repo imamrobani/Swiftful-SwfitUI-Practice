@@ -61,7 +61,7 @@ struct SpotifyHomeView: View {
             var rows: [ProductRow] = []
             let allBrands = Set(products.map({ $0.brand }))
             for brand in allBrands {
-                rows.append(ProductRow(title: brand.capitalized, products: products))
+                rows.append(ProductRow(title: brand?.capitalized ?? "", products: products))
             }
             productRows = rows
         } catch {
