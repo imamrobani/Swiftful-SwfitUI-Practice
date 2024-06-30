@@ -67,7 +67,7 @@ struct NetflixDetailsProductView: View {
                 .foregroundStyle(.netflixDarkGray)
                 .background(.netflixWhite)
                 .clipShape(.rect(cornerRadius: 4))
-                .asButton {
+                .asButton(.press) {
                     onPlayPressed?()
                 }
             
@@ -80,7 +80,7 @@ struct NetflixDetailsProductView: View {
                 .foregroundStyle(.netflixWhite)
                 .background(.netflixDarkGray)
                 .clipShape(.rect(cornerRadius: 4))
-                .asButton {
+                .asButton(.press) {
                     onDownloadPressed?()
                 }
             }
